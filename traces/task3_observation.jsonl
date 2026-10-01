@@ -1,0 +1,5 @@
+{"case": "successful_observation", "status": "passed", "result": "accepted", "source": "lookup", "content": "order:88213 status:verified", "success": true}
+{"case": "tool_failure_observation", "status": "passed", "result": "converted_to_observation", "source": "lookup", "content": "tool_error: temporary service unavailable", "success": false}
+{"case": "explicit_observation", "status": "passed", "result": "accepted", "source": "environment", "content": "customer requested human review", "success": true}
+{"case": "empty_observation", "status": "passed", "result": "rejected", "detail": "observation content cannot be empty"}
+{"case": "conflicting_tool_result", "status": "passed", "result": "rejected", "detail": "result and error cannot both be provided"}

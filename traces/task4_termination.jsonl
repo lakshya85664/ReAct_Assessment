@@ -1,0 +1,5 @@
+{"case": "completed", "status": "passed", "result": "terminated", "reason": "completed"}
+{"case": "failed", "status": "passed", "result": "terminated", "reason": "failed"}
+{"case": "step_limit", "status": "passed", "result": "terminated", "reason": "step_limit", "step": 3, "max_steps": 3}
+{"case": "explicit_stop", "status": "passed", "result": "terminated", "reason": "explicit_stop"}
+{"case": "invalid_completion", "status": "passed", "result": "rejected", "detail": "completed termination requires a final answer"}

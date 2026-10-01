@@ -1,0 +1,5 @@
+{"case": "valid_action", "status": "passed", "result": "selected", "action": "lookup", "args": {"query": "order 88213"}}
+{"case": "argument_validation", "status": "passed", "result": "validated", "action": "lookup"}
+{"case": "unknown_action", "status": "passed", "result": "rejected", "detail": "action is not registered: delete_order"}
+{"case": "invalid_arguments", "status": "passed", "result": "rejected", "detail": "missing required argument: query"}
+{"case": "wrong_argument_type", "status": "passed", "result": "rejected", "detail": "invalid type for argument: query"}
